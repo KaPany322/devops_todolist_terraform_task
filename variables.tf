@@ -43,5 +43,5 @@ variable "ssh_key_public" {
 }
 
 variable "dns_label" {
-  default = "matetask-${uuid()}"
+  default = "matetask"
 }
