@@ -35,7 +35,7 @@ variable "vm_name" {
 }
 
 variable "vm_size" {
-  default = "Standard_D2s_v5"
+  default = "Standard_B1s"
 }
 
 variable "ssh_key_public" {
@@ -43,5 +43,5 @@ variable "ssh_key_public" {
 }
 
 variable "dns_label" {
-  default = "matetask"
+  default = "matetask-${uuid()}"
 }
